@@ -1,4 +1,3 @@
-# Library Management System
 
 # Analyzing Library Management System Data
 
