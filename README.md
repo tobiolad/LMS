@@ -1,7 +1,6 @@
-# LMS
-Library Management System
+# Library Management System
 
-Analyzing Library Management System Data
+# Analyzing Library Management System Data
 
 Introduction:
 For this project, I'll be analyzing data from a Library Management System (LMS) database. The LMS database consists of several tables representing different aspects of library operations, including books, borrowers, branches, and book loans. 
