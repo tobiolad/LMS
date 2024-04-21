@@ -1,13 +1,46 @@
+# Library Management System (LMS) Database Analysis
 
-# Testing SQL Skills: A Deep Dive into LMS Databases
+## Introduction
 
-# Introduction:
-For this project, I'll be analyzing data from a Library Management System (LMS) database. The LMS database consists of several tables representing different aspects of library operations, including books, borrowers, branches, and book loans. 
+In this project, I delve into the analysis of a Library Management System (LMS) database. The LMS database encompasses several tables, each representing a distinct facet of library operations, such as books, borrowers, branches, and book loans.
 
-# Goals and Objectives:
+## Goals and Objectives
 
-The aim of this project is to build a Library Management System database using SQL. I want to test my grasp of database design, SQL commands, and data handling methods. By setting up tables, inserting data, defining connections, and using SQL functions.
+The primary objective of this project is to showcase proficiency in SQL database management. By designing tables, inserting data, establishing relationships, and employing SQL queries and functions, I aim to demonstrate a comprehensive understanding of database design and manipulation.
 
-# Relational Schema:
-Below is the relational schema for the Library Management System:
+## Relational Schema
 
+The relational schema for the LMS database is as follows:
+
+- **lms_books:**
+  - bookId (Primary Key)
+  - bookTitle
+  - author
+  - publisher
+
+- **lms_branch:**
+  - branchId (Primary Key)
+  - branchName
+  - branchAddress
+
+- **lms_bookborrowers:**
+  - libcardNo (Primary Key)
+  - name
+  - address
+  - phone
+
+- **lms_bookloans:**
+  - loansId (Primary Key)
+  - bookId (Foreign Key referencing lms_books)
+  - branchId (Foreign Key referencing lms_branch)
+  - libcardNo (Foreign Key referencing lms_bookborrowers)
+  - dateOut
+  - dueDate
+
+## Queries/Scripts Used
+
+The SQL queries and scripts used in this project can be found in the accompanying SQL file (e.g., `lms_queries.sql`).
+
+## Conclusion
+
+This project offers a comprehensive analysis of the Library Management System database, showcasing proficiency in SQL database management techniques. By utilizing SQL queries, functions, and scripts, valuable insights are extracted, aiding in effective library management strategies and decision-making processes.
