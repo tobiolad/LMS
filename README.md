@@ -8,6 +8,10 @@ In this project, I delve into the analysis of a Library Management System (LMS) 
 
 The primary objective of this project is to showcase proficiency in SQL database management. By designing tables, inserting data, establishing relationships, and employing SQL queries and functions, I aim to demonstrate a comprehensive understanding of database design and manipulation.
 
+## Entity-Relationship Diagram (ERD)
+
+![LMS ERD Diagram](LMS_ERD_DIAGRAM.png)
+
 ## Relational Schema
 
 The relational schema for the LMS database is as follows:
@@ -39,7 +43,7 @@ The relational schema for the LMS database is as follows:
 
 ## Queries/Scripts Used
 
-The SQL queries and scripts used in this project can be found in the accompanying SQL file (e.g., `lms_queries.sql`).
+The SQL queries and scripts used in this project can be found in the accompanying SQL file (e.g., `LMS PROJECT.sql`).
 
 ## Conclusion
 
